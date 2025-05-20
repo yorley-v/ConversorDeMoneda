@@ -7,7 +7,7 @@ Crear un programa interactivo en Java que permita al usuario convertir una canti
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/TU_USUARIO/conversor-divisas.git
+git clone https://github.com/yorley-v/ConversorDeMoneda.git
 ```
 
 2. Abre el proyecto con **IntelliJ IDEA** (recomendado).
@@ -94,14 +94,15 @@ Resultado: 100.00 USD = 91.30 EUR
 ### Finalización del programa
 ![Finalizacion programa](https://github.com/user-attachments/assets/3163d5fd-c53f-4a2a-a565-1d0f76cfb43a)
 
-📌 Notas
+## 📌 Notas
 Puedes personalizar el menú para incluir solo las monedas que quieras.
 
 El programa es fácilmente ampliable y se puede convertir en una aplicación web en el futuro.
 
-🛠 Autor
+## 🛠 Autor
 Este proyecto fue creado como práctica en Java usando API y JSON.
 🎓 Ideal para quienes están aprendiendo sobre consumo de servicios web y manejo de datos en consola.
+
 Yorley Vera (yorley-v)
 
 ## 📜 Licencia
