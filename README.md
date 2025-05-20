@@ -2,6 +2,30 @@
 
 Crear un programa interactivo en Java que permita al usuario convertir una cantidad de dinero de una moneda a otra utilizando tasas reales obtenidas desde una API de tipo de cambio.
 
+## ⚙️ Instalación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/TU_USUARIO/conversor-divisas.git
+```
+
+2. Abre el proyecto con **IntelliJ IDEA** (recomendado).
+
+3. Asegúrate de tener configurado:
+   - JDK 17 o superior
+   - La dependencia **Gson**
+  
+## 🚀 Cómo ejecutar
+
+Desde IntelliJ:
+
+- Ejecuta la clase `Main.java` como una aplicación Java.
+
+## 📌 Requisitos
+
+- Java 17+
+- Conexión a Internet (para usar la API)
 
 ## 🚀 Funcionalidades
 
@@ -19,13 +43,14 @@ Crear un programa interactivo en Java que permita al usuario convertir una canti
 - ExchangeRate-API
 
 ## 📦 Estructura del proyecto
-├── Main.java → Interfaz principal con el usuario
+```
+├── Main.java                 → Interfaz principal con el usuario
 conversor/
-├── ApiService.java → Lógica de conexión con la API
-├── Conversor.java → Realiza los cálculos de conversión
-├── MenuMonedas.java → Muestra y gestiona las monedas disponibles
-└── Moneda.java → Clase modelo para representar monedas
-
+├── ApiService.java          → Lógica de conexión con la API
+├── Conversor.java           → Realiza los cálculos de conversión
+├── MenuMonedas.java         → Muestra y gestiona las monedas disponibles
+└── Moneda.java              → Clase modelo para representar monedas
+```
 
 ## 🛠 Requisitos
 - Contar con un programa de desarrollo, ya sea Intellij IDEA o Visual Studio Code.
@@ -41,15 +66,19 @@ conversor/
 4. Sustitúyela en el código donde aparece `TU_API_KEY`
 
 ## 🧪 Ejemplo de uso
+```
 === CONVERSOR DE DIVISAS ===
-	1. Dólar Estadounidense (USD)
-	2. Euro (EUR)
-	3. Real Brasileño (BRL)
-...
+    1. Dólar Estadounidense (USD)
+    2. Euro (EUR)
+    3. Real Brasileño (BRL)
+    ...
+
 Selecciona el número de la moneda de ORIGEN: 1
 Selecciona el número de la moneda de DESTINO: 2
 Introduce la cantidad a convertir: 100
+
 Resultado: 100.00 USD = 91.30 EUR
+```
 
 ## 🖼️ Capturas del proyecto
 
@@ -65,7 +94,16 @@ Resultado: 100.00 USD = 91.30 EUR
 ### Finalización del programa
 ![Finalizacion programa](https://github.com/user-attachments/assets/3163d5fd-c53f-4a2a-a565-1d0f76cfb43a)
 
-## 📜 Licencia
+📌 Notas
+Puedes personalizar el menú para incluir solo las monedas que quieras.
 
+El programa es fácilmente ampliable y se puede convertir en una aplicación web en el futuro.
+
+🛠 Autor
+Este proyecto fue creado como práctica en Java usando API y JSON.
+🎓 Ideal para quienes están aprendiendo sobre consumo de servicios web y manejo de datos en consola.
+Yorley Vera (yorley-v)
+
+## 📜 Licencia
 Este proyecto es de uso educativo y sin fines de lucro. Si lo mejoras, ¡comparte!
-![image](https://github.com/user-attachments/assets/04bb36ff-ecce-403f-a69e-459cb30affa0)
+
