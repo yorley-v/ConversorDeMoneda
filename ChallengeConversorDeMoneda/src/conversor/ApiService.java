@@ -7,7 +7,7 @@ import java.net.http.HttpResponse;
 
 public class ApiService {
 
-    private static final String API_KEY = "5c0b96181922345824ec86f5";
+    private static final String API_KEY = "TU_API_KEY";
     private static final HttpClient client = HttpClient.newHttpClient();
 
     public static String obtenerTasas(String base) throws Exception {
